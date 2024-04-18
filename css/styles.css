@@ -8,6 +8,11 @@
     --color-bg-team: #F4F4FD;
 }
 
+ul,
+ol {
+    list-style: none;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
