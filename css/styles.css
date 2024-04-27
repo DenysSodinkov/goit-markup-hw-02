@@ -1,224 +1,273 @@
-:root {
-    --slate: #434455;
-    --navy-blue: #2e2f42;
-    --cornflower: #e7e9fc;
-    --iris: #4d5ae5;
-    --ocean: #404bbf;
-    --white: #fff;
-    --cloud: #f4f4fd;
-}
-
-/*
-=========================================
-      Base styles
-=========================================
-*/
-body {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    color: var(--slate);
-    background: var(--white);
+.list {
+    list-style: none;
 }
 
 .link {
     text-decoration: none;
 }
 
-.list {
-    list-style: none;
+button {
+    cursor: pointer;
 }
 
-/*
-=========================================
-      Header
-=========================================
-*/
 .logo {
+    text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris);
+    color: var(--subsid-color);
 }
 
-.logo-studio {
-    color: var(--navy-blue);
+.logo-ligh {
+    color: var(--ancillary-color);
 }
 
-.text-link {
+.logo-dark {
+    color: var(--log-stud-col);
+}
+
+:root {
+    --subsid-color: #4d5ae5;
+    --logo-font: "Raleway", sans-serif;
+    --dark-bgr: #2e2f42;
+    --ancillary-color: #2e2f42;
+    --backgr-color: #ffffff;
+    --log-stud-col: #f4f4fd;
+    --body-color: #434455;
+    --backgr-btn: #404bbf;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--backgr-color);
+    color: var(--body-color);
+}
+
+.page-header {
+    background-color: color #e7e9fc;
+}
+
+.menu-link {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    line-height: 1.5;
+    color: var(--ancillary-color);
 }
 
-.text-link:hover,
-.text-link:focus {
-    color: #404bbf;
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--backgr-btn);
 }
 
 .contacts {
     font-style: normal;
-}
-
-.contact-box {
-    font-size: 16px;
     line-height: 1.5;
+}
+
+.contact-mt {
+    font-size: 16px;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: var(--body-color);
 }
 
-.contact-box:hover,
-.contact-box:focus {
-    color: var(--ocean);
+.contact-mt:hover,
+.contact-mt:focus {
+    color: var(--backgr-btn);
 }
 
-/* Main
-=============================================
-   1. Effective Solutions for Your Business
-=============================================
-*/
-.title-box {
-    background: var(--navy-blue);
+.order-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    color: var(--backgr-color);
+    flex: none;
+
+    background: var(--subsid-color);
 }
 
-.main-title {
+.order-btn:hover,
+.order-btn:focus {
+    background-color: var(--backgr-btn);
+}
+
+.designation {
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--backgr-color);
+    background-color: var(--dark-bgr);
 }
 
-.main-button {
-    background-color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
+.designation-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--backgr-color);
 }
 
-.main-button:hover,
-.main-button:focus {
-    background-color: #404bbf;
-    cursor: pointer;
+.advantage-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--ancillary-color);
 }
 
-/* 
-=============================================
-   2. Advantages
-=============================================
-*/
-.main-advantages-section {}
-
-.advantages-title {
+.title-adv {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: var(--ancillary-color);
 }
 
-.advantages-text {
+.defin-adv {
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+
+    line-height: 1.5;
 }
 
-.opportunities-title {
+.title-adv {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--ancillary-color);
+}
+
+.defin-adv {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+
+    line-height: 1.5;
+}
+
+.title-adv {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--ancillary-color);
+}
+
+.defin-adv {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+
+    line-height: 1.5;
+}
+
+.title-adv {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--ancillary-color);
+}
+
+.defin-adv {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+
+    line-height: 1.5;
+}
+
+.ourwork-title {
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--navy-blue);
+    color: var(--ancillary-color);
 }
 
-/* 
-=============================================
-   3. What are we doing
-=============================================
-*/
-
-/* 
-=============================================
-   4. Our Team
-=============================================
-*/
-.main-section-team {
-    background-color: #f4f4fd;
+.employ {
+    background-color: var(--log-stud-col);
 }
 
-.card {
-    background-color: #ffffff;
+.employ-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: var(--ancillary-color);
 }
 
-.card-name {
-    font-size: 20px;
+.employ-list {
+    background-color: var(--backgr-color);
+}
+
+.employ-item {
+    background-color: var(--backgr-color);
+}
+
+.empl {
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: var(--ancillary-color);
 }
 
-.card-text {
+.empl-prof {
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    line-height: 1.5;
 }
 
-/* 
-=============================================
-   Portfolio
-=============================================
-*/
-.portfolio-button {
+.vault {
+    background: var(--dark-bgr);
+}
+
+.vault-txt {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: var(--log-stud-col);
+}
+
+.guide-btn {
     font-family: "Roboto", sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    color: var(--subsid-color);
+    background-color: var(--log-stud-col);
+
+    text-align: center;
     letter-spacing: 0.04em;
-    color: var(--iris);
-    background-color: var(--cloud);
 }
 
-.portfolio-button:hover,
-.portfolio-button:focus {
-    color: #fff;
-    background-color: #404bbf;
-    cursor: pointer;
+.guide-btn:hover,
+.guide-btn:focus {
+    color: var(--backgr-color);
+    background-color: var(--backgr-btn);
 }
 
-.card-project-name {
-    font-size: 20px;
+.specification {
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: var(--ancillary-color);
 }
 
-/* 
-=============================================
-   Footer
-=============================================
-*/
-.logo-studio-footer {
-    color: var(--cloud, #f4f4fd);
-}
-
-.footer-box {
-    background: var(--navy-blue);
-}
-
-.paragraf-box {
-    line-height: 1.5;
+.specification-p {
     letter-spacing: 0.02em;
-    color: var(--cloud);
+    color: var(--body-color);
+    line-height: 1.5;
 }
